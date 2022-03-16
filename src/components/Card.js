@@ -53,7 +53,7 @@ const Card = ({ taskObj, index, deleteTask, updateListArray }) => {
         >
           <span class="card-title">{taskObj.Name}</span>
         </span>
-        <p class="m-3">{taskObj.Description}</p>
+        <p class="card-content">{taskObj.Description}</p>
 
         <div style={{ position: "absolute", right: "20px", bottom: "20px" }}>
           <i
